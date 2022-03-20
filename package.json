@@ -1,0 +1,29 @@
+{
+  "name": "@rczjian/solstake",
+  "version": "0.0.1",
+  "dependencies": {
+    "@marinade.finance/marinade-ts-sdk": "^2.0.9",
+    "@soceanfi/stake-pool-sdk": "^0.2.2",
+    "@solana/wallet-adapter-base": "^0.9.5",
+    "@solana/web3.js": "^1.36.0",
+    "axios": "^0.26.1",
+    "dayjs": "^1.11.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "description": "stake pool wrapper",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rczjian/solstake.git"
+  },
+  "author": "Raymond Chan <rczjian@gmail.com>",
+  "license": "ISC",
+  "files": [
+    "lib/**/*"
+  ]
+}
